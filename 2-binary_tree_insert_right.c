@@ -25,7 +25,7 @@ tmp->parent = parent;
 tmp->left = NULL;
 tmp->right = NULL;
 
-if (pare->right != NULL)
+if (parent->right != NULL)
 {
 tmp->right = parent->right;
 tmp->right->parent = tmp;
